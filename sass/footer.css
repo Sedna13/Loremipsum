@@ -1,0 +1,194 @@
+.footer {
+  width: 1920px;
+  height: 80px;
+  background-color: #3D4050;
+  display: flex;
+  justify-content: center;
+}
+.footer .footer__info {
+  margin-right: 80px;
+  width: 1170px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  align-items: center;
+  color: #C3C3C3;
+}
+.footer .footer__info .footer__autor {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.footer .footer__info .footer__payment_system {
+  width: 470px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer__info .footer__payment_system .footer__container {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.footer .footer__info .footer__contacts {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.footer .footer__info .footer__contacts .footer__svg {
+  margin-left: 25px;
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    width: 1280px;
+    height: 80px;
+    background-color: #3D4050;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__info {
+    margin-left: 100px;
+    width: 900px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    align-items: center;
+    color: #C3C3C3;
+  }
+  .footer .footer__info .footer__autor {
+    width: 170px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .footer .footer__info .footer__payment_system {
+    width: 430px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .footer__info .footer__payment_system .footer__container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .footer .footer__info .footer__contacts {
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  .footer .footer__info .footer__contacts .footer__svg {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 960px) {
+  .footer {
+    width: 960px;
+  }
+}
+@media (max-width: 640px) {
+  .footer {
+    width: 640px;
+  }
+  .footer .footer__info {
+    width: 600px;
+    height: 80px;
+  }
+  .footer .footer__info .footer__autor {
+    width: 170px;
+  }
+  .footer .footer__info .footer__payment_system {
+    width: 150px;
+    height: 80px;
+    flex-direction: column;
+  }
+  .footer .footer__info .footer__payment_system .footer__container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 120px;
+    height: 80px;
+  }
+  .footer .footer__info .footer__contacts {
+    width: 150px;
+    height: 80px;
+  }
+  .footer .footer__info .footer__contacts .footer__svg {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    width: 320px;
+    height: 220px;
+  }
+  .footer .footer__info {
+    width: 160px;
+    height: 80px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .footer .footer__info .footer__autor {
+    width: 160px;
+    margin: auto;
+  }
+  .footer .footer__info .footer__payment_system {
+    margin-top: 20px;
+    width: 150px;
+    height: 80px;
+    flex-direction: column;
+  }
+  .footer .footer__info .footer__payment_system .footer__container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 120px;
+    height: 80px;
+    margin-top: -10px;
+  }
+  .footer .footer__info .footer__contacts {
+    width: 150px;
+    height: 60px;
+    margin-top: -20px;
+  }
+  .footer .footer__info .footer__contacts .footer__svg {
+    margin-left: 25px;
+  }
+}/*# sourceMappingURL=footer.css.map */
